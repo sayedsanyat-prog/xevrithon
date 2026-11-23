@@ -1,0 +1,51 @@
+Python cache
+
+pycache/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+C++ build files
+
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+JavaScript / Node.js
+
+node_modules/
+dist/
+coverage/
+
+IDE and editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+Operating system files
+
+.DS_Store
+Thumbs.db
+
+Logs and temporary files
+
+*.log
+tmp/
+temp/
